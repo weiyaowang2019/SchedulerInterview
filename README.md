@@ -13,12 +13,15 @@ A task’s position in the list is determined first by the urgency parameter (an
 1) In the Category class, the linked integer value has been altered since I use the linked integer value for sorting:
 
    RED(1),
+   
     /*Note:  Based on Requirement document that the Category order is :
         Categories are: RED (highest priority), BLUE and GREEN.
         Switch GEEN and BLUE value from GREEN (2) to GREEN(3) and BLUE(3) to BLUE(2)
         for integer based sorting
     */
+    
     BLUE(2),
+    
     GREEN(3);
 
 2) Added few "Get" methods in order to get the attribute of urgency, category and timestamp
